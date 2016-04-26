@@ -1,3 +1,4 @@
+#include"mainwindow.h"
 #include "mainwindow4.h"
 #include "ui_mainwindow4.h"
 
@@ -11,4 +12,11 @@ MainWindow4::MainWindow4(QWidget *parent) :
 MainWindow4::~MainWindow4()
 {
     delete ui;
+}
+
+void MainWindow4::on_pushButton_1_clicked()
+{
+    MainWindow *window = new MainWindow();
+    window->show();
+    this->hide();
 }

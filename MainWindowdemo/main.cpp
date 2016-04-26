@@ -1,6 +1,12 @@
 #include <QApplication>
 #include "mainwindow.h"
 #include"mainwindow2.h"
+#include "mainwindow3.h"
+#include "mainwindow4.h"
+#include "mainwindow5.h"
+#include "mainwindow6.h"
+#include "mainwindow7.h"
+#include "mainwindow8.h"
 #include "dialog1.h"
 
 
